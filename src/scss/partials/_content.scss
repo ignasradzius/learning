@@ -1,0 +1,72 @@
+.content {
+  padding: 20px;
+  background: $white;
+
+  &__time {
+    grid-area: time;
+    color: $lgrey;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
+  }
+
+  &__title {
+    grid-area: title;
+    color: $grey;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    width: 100%;
+  }
+
+  &__subtitle {
+    grid-area: subtitle;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 12px 0 0 0;
+  }
+
+  &__text {
+    color: $grey;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 20px;
+
+    &-a {
+      grid-area: text-a;
+    }
+
+    &-b {
+      grid-area: text-b;
+    }
+
+    &-c {
+      grid-area: text-c;
+    }
+
+    &-d {
+      grid-area: text-d;
+    }
+  }
+
+  &__quote {
+    grid-area: quote;
+    background: $platinum;
+    padding: 40px 40px 40px 80px;
+    margin-top: 20px;
+
+    &-text {
+      color: $grey;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    &-author {
+      color: $grey;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 22px;
+    }
+  }
+}

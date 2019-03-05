@@ -1,0 +1,67 @@
+.dropdown {
+  position: relative;
+
+  .product-list, .gallery-list {
+    display: none;
+  }
+}
+
+.nav__link-dropdown {
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown:hover .product-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  top: 80px;
+  left: -20px;
+  background-color: $white;
+
+  &__item {
+    font-size: 13px;
+    line-height: 29px;
+    padding: 5px 40px 5px 20px;
+    border-top: 1px solid $border;
+    white-space: nowrap;
+
+    &:hover {
+      background: $border;
+      cursor: pointer;
+    }
+
+    &--last {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.dropdown:hover .gallery-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  top: 80px;
+  left: -20px;
+  background-color: $white;
+
+  &__item {
+    font-size: 13px;
+    line-height: 29px;
+    padding: 5px 40px 5px 20px;
+    border-top: 1px solid $border;
+    white-space: nowrap;
+
+    &:hover {
+      background: $border;
+      cursor: pointer;
+    }
+
+    &--last {
+      padding-bottom: 10px;
+    }
+  }
+}

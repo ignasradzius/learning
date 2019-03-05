@@ -1,0 +1,46 @@
+.pre-footer {
+  padding-bottom: 40px;
+
+  .card {
+    background: $white;
+    padding: 20px;
+
+    &__title {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+      padding-bottom: 10px;
+
+      &--white {
+        color: $white;
+        text-transform: uppercase;
+        font-size: 24px;
+        padding: 0;
+      }
+    }
+
+    &__dash {
+      background: $linear;
+      height: 3px;
+      width: 40px;
+      margin: 20px 0;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 21px;
+      color: $grey;
+
+      &--white {
+        color: $white;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .card--black {
+    background: rgba(21, 21, 21, 1);
+    border-radius: 4px;
+  }
+}

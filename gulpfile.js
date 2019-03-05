@@ -8,8 +8,8 @@ var gulp = require("gulp"),
 
 var paths = {
   styles: {
-      src: "src/scss/*.scss",
-      dest: "src/css"
+    src: "src/scss/**/*.scss",
+    dest: "src/css"
   }
 };
 
@@ -43,7 +43,6 @@ function watch() {
 }
 
 exports.watch = watch;
-
 exports.style = style;
 
 var build = gulp.parallel(style, watch);

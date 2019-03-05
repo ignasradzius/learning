@@ -1,0 +1,41 @@
+.btn {
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(51, 51, 51, 1);
+  padding: 10px 30px;
+  border-radius: 4px;
+
+  &--purple {
+    background-color: rgba(134, 87, 223, 1);
+    color: $white;
+  }
+
+  &--white {
+    background-color: $white;
+  }
+
+  &--transparent {
+    border: 1px solid $white;
+    color: $white;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+
+  &--register {
+    text-align: center; 
+    text-decoration: none;
+    color: rgba(134, 87, 223, 1);;
+  }
+
+  &--long {
+    margin-top: 20px;
+    display: block;
+  }
+
+  &--right {
+    float: right;
+  }
+        
+}
+

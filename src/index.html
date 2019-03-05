@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,201 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <h1>hi</h1>
+
+  <header class="header">
+    <div class="container">
+      <div class="nav">
+        <h3 class="nav__brand"> sitename </h3>
+
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="btn btn--purple"> sign up </a></li>
+          <li class="nav__list-item nav__list-item--about"><a href="#" class="nav__link nav__link-about"> about us </a></li>
+          <li class="nav__list-item dropdown"><a href="#" class="nav__link nav__link-dropdown"> product &#9662; </a>
+            <ul class="product-list">
+              <li class="product-list__item"> Product list #1</li>
+              <li class="product-list__item"> Product list #2</li>
+              <li class="product-list__item"> Product list #3</li>
+              <li class="product-list__item"> Product list #4</li>
+              <li class="product-list__item product-list__item--last"> Product list #5</li>
+            </ul>
+          </li>
+          <li class="nav__list-item dropdown"><a href="#" class="nav__link nav__link-dropdown"> gallery &#9662; </a>
+            <ul class="gallery-list">
+              <li class="gallery-list__item"> Gallery list #1</li>
+              <li class="gallery-list__item"> Gallery list #2</li>
+              <li class="gallery-list__item"> Gallery list #3</li>
+              <li class="gallery-list__item"> Gallery list #4</li>
+              <li class="gallery-list__item gallery-list__item--last"> Gallery list #5</li>
+            </ul>
+          </li>
+          <li class="nav__list-item nav__list-item--last"><a href="" class="nav__link nav__link-contact"> contact us </a></li>
+        </ul>
+
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="hero__title"> Mauris non tempo. </h1>
+        <h6 class="hero__subtitle"> Donec facilisis tortor ut augue lacinia, at. </h6>
+        <a href="" class="btn btn--white"> Get started </a>
+        <a href="" class="btn btn--transparent"> Read more </a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="after-header cards-grid">
+        <article class="card">
+          <h3 class="card__title"> retro occupy </h3>
+          <hr class="card__dash">
+          <p class="card__text"> Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party,
+            cardigan raw denim
+            quinoa bag ethnic. </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card__title"> kogi cosby </h3>
+          <hr class="card__dash">
+          <p class="card__text"> Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh
+            aesthetic food bag
+            truck. </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card__title"> lorem </h3>
+          <hr class="card__dash">
+          <p class="card__text"> Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf
+            ty. </p>
+        </article>
+      </section>
+
+      <div class="content-sidebar-grid">
+        <section class="content section-border">
+          <article class="content-grid">
+            <time class="content__time" datetime="2018-10-18"> 12:50 18 Oct 2018 </time>
+            <h2 class="content__title"> Fusce vehicula dolor arcu, sit. </h2>
+            <h4 class="content__subtitle"> Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache authentic craft
+              beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse fingerstache
+              post-ironic,. </h4>
+            <p class="content__text content__text-a"> Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec
+              pharetra
+              id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum
+              ut.
+              Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra
+              odio.
+              Donec bibendum nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem,
+              condimentum
+              ullamcorper est sit amet, molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis
+              vehicula neque. </p>
+            <p class="content__text content__text-b"> Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache
+              authentic craft beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse
+              fingerstache post-ironic, fashion axe art party Etsy direct trade retro organic. Cliche Shoreditch Odd
+              Future
+              Pinterest. </p>
+            <p class="content__text content__text-c"> Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum nunc sit
+              amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum. </p>
+            <blockquote class="content__quote">
+              <p class="content__quote-text"> <span>"</span>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus,
+                scelerisque nec
+                pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit
+                elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. </p>
+              <p class="content__quote-author"> — fkjsdh fsldf </p>
+            </blockquote>
+            <p class="content__text content__text-d"> Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar
+              lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus
+              vel
+              odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis
+              ante
+              venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien convallis eu. Nulla
+              ut
+              turpis in diam dapibus consequat. </p>
+          </article>
+        </section>
+
+        <section class="sidebar section-border">
+          <h3 class="sidebar__title"> Fusce vehicula </h3>
+          <form class="sidebar__form" action="">
+            <label class="sidebar__label" for="email"> Email </label>
+            <input class="sidebar__input" type="email" name="email" placeholder="your@email.here">
+            <label class="sidebar__label" for="password"> Password </label>
+            <input class="sidebar__input" type="password" name="password" placeholder="********">
+            <div class="sidebar__remember-me">
+              <label>
+                <input type="radio" name="radio">
+                <span> Remember me </span>
+              </label>
+            </div>
+            <a href="" class="btn btn--purple btn--long"> Login </a>
+            <a href="" class="btn--register btn--long"> Register </a>
+          </form>
+        </section>
+      </div>
+
+      <section class="cta section-border">
+        <div class="cta__top-border"></div>
+        <h4 class="cta__title"> Nam dapibus nisl vitae elit fringilla rutrum. Aenean sol? </h4>
+        <a href="" class="btn btn--purple btn--right"> Get started </a>
+      </section>
+
+      <section class="pre-footer cards-grid">
+        <article class="card section-border">
+          <h3 class="card__title"> Fusce vehicula. </h4>
+            <p class="card__text faded"> Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art
+              fap.
+              Hashtag
+              typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies
+              chillwave, bespoke tote bag blog post-ironic. Single-origi. </p>
+            <a href="" class="btn btn--purple"> Read more </a>
+        </article>
+        <article class="card section-border">
+          <h4 class="card__title"> Keytar McSwee. </h4>
+          <p class="card__text"> Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they
+            sold out messenger bag. </p>
+          <a href="" class="btn--register"> Read more </a>
+        </article>
+        <article class="card card--black">
+          <h3 class="card__title card__title--white"> retro occupy </h3>
+          <hr class="card__dash">
+          <p class="card__text card__text--white"> Hella narwhal Cosby sweater salvia kitsch before they sold. </p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer cards-grid">
+    <section class="sitename">
+      <h4 class="sitename__title">sitename</h4>
+      <p class="sitename__description"> Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they
+        sold out </p>
+    </section>
+
+    <section class="links border-left">
+      <h4 class="links__title"> Synth pol </h4>
+      <ul class="links__list">
+        <li><a class="links__list-item" href="#"> Retro occupy organic, stumptown shabby chic </a></li>
+        <li><a class="links__list-item" href="#"> Fixie tote bag ethnic keytar.. </a></li>
+        <li><a class="links__list-item" href="#"> Fixie tote bag ethnic keytar. Neutra. </a></li>
+        <li><a class="links__list-item" href="#"> Hella narwhal Cosby </a></li>
+      </ul>
+    </section>
+
+    <section class="address border-left">
+      <h4 class="address__title"> Keytar </h4>
+      <ul class="address__list">
+        <li class="address__list-item"> <span class="address__list-item--bold"> Street: </span> 41856 Stephen </li>
+        <li class="address__list-item"> <span class="address__list-item--bold"> City: </span> Hermosa Beach</li>
+        <li class="address__list-item"> <span class="address__list-item--bold"> State: </span> IA </li>
+        <li class="address__list-item"> <span class="address__list-item--bold"> Zip: </span> 75056-2704 </li>
+      </ul>
+    </section>
+  </footer>
+  <div class="footer__bottom-border"></div>
+  <div class="footer__copyright">
+    <p class="footer__copyright-text"> Copyright &copy; 2018 </p>
+  </div>
 </body>
+
 </html>
