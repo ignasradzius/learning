@@ -7,12 +7,22 @@
   border-radius: 4px;
 
   &--purple {
-    background-color: rgba(134, 87, 223, 1);
+    background: $purple;
     color: $white;
+
+    &:hover {
+      background: rgb(178, 148, 235);
+    }
   }
 
   &--white {
-    background-color: $white;
+    background: $white;
+
+    &:hover {
+      background: none;
+      color: $white;
+      border: 1px solid $white;
+    }
   }
 
   &--transparent {
@@ -20,12 +30,21 @@
     color: $white;
     border-radius: 4px;
     margin-left: 20px;
+
+    &:hover {
+      background: $white;
+      color: $black;
+    }
   }
 
   &--register {
     text-align: center; 
     text-decoration: none;
-    color: rgba(134, 87, 223, 1);;
+    color: $purple;
+
+    &:hover {
+      color: rgb(178, 148, 235);
+    }
   }
 
   &--long {

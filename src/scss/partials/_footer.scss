@@ -40,6 +40,10 @@
       &-item {
         text-decoration: none;
         color: $purple;
+
+        &:hover {
+          color: rgb(178, 148, 235);
+        }
       }
     }
   }
