@@ -41,6 +41,7 @@
     text-align: center; 
     text-decoration: none;
     color: $purple;
+    padding-bottom: 5px;
 
     &:hover {
       color: rgb(178, 148, 235);
@@ -54,6 +55,11 @@
 
   &--right {
     float: right;
+  }
+
+  &--bottom {
+    position: absolute;
+    bottom: 20px;
   }
         
 }

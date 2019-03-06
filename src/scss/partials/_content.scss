@@ -7,7 +7,6 @@
     color: $lgrey;
     font-size: 14px;
     line-height: 19px;
-    padding-bottom: 7px;
   }
 
   &__title {
@@ -24,14 +23,12 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    padding: 12px 0 0 0;
   }
 
   &__text {
     color: $grey;
     font-size: 14px;
     line-height: 21px;
-    padding-top: 20px;
 
     &-a {
       grid-area: text-a;
@@ -54,7 +51,6 @@
     grid-area: quote;
     background: $platinum;
     padding: 40px 40px 40px 20px;
-    margin-top: 20px;
     margin-left: -40px;
     border-radius: 4px;
     display: grid;
