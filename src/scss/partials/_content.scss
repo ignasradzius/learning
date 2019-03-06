@@ -53,8 +53,29 @@
   &__quote {
     grid-area: quote;
     background: $platinum;
-    padding: 40px 40px 40px 80px;
+    padding: 40px 40px 40px 20px;
     margin-top: 20px;
+    margin-left: -40px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    position: relative;
+
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 10px solid rgba(192, 192, 192, 1);
+      border-left: 20px solid transparent;
+      position: absolute;
+      bottom: -10px;
+    }
+
+    &-sign {
+      font-size: 82px;
+      line-height: 82px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
     &-text {
       color: $grey;
@@ -67,6 +88,8 @@
       font-size: 16px;
       font-style: italic;
       line-height: 22px;
+      padding-top: 10px;
+      grid-column: 2/3;
     }
   }
 }
