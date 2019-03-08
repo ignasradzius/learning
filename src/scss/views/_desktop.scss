@@ -1,8 +1,18 @@
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 901px) {
   body {
     background: $white-smoke;
   }
+
+  .nav__toggle, .nav__toggle-label {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
   .cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 31%);

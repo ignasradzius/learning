@@ -1,7 +1,4 @@
 @import "./partials/variables";
-@import "./views/desktop"; 
-@import "./views/tablet"; 
-@import "./views/mobile"; 
 @import "./partials/header";
 @import "./partials/buttons"; 
 @import "./partials/after-header"; 
@@ -11,6 +8,9 @@
 @import "./partials/pre-footer";
 @import "./partials/footer";
 @import "./partials/checkbox";
+@import "./views/desktop"; 
+@import "./views/tablet"; 
+@import "./views/mobile"; 
 
 
 * {
@@ -21,11 +21,6 @@
 
 body {
   font-family: "Open-sans", sans-serif;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
 }
 
 .section-border {

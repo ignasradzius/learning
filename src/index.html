@@ -12,14 +12,14 @@
 <body>
 
   <header class="header">
-    <div class="container">
+    <div class="nav-container">
       <div class="nav">
         <h3 class="nav__brand"> sitename </h3>
-
+        <a href="#" class="btn btn--purple btn--signup"> sign up </a>
+        <input type="checkbox" id="nav-toggle" class="nav__toggle">
         <ul class="nav__list">
-          <li class="nav__list-item"><a href="#" class="btn btn--purple"> sign up </a></li>
           <li class="nav__list-item nav__list-item--about"><a href="#" class="nav__link nav__link-about"> about us </a></li>
-          <li class="nav__list-item dropdown"><a href="#" class="nav__link nav__link-dropdown"> product &#9662; </a>
+          <li class="nav__list-item dropdown"><a href="#" class="nav__link nav__link-dropdown nav__link"> product &#9662; </a>
             <ul class="product-list">
               <li class="product-list__item"> Product list #1</li>
               <li class="product-list__item"> Product list #2</li>
@@ -40,6 +40,11 @@
           <li class="nav__list-item nav__list-item--last"><a href="" class="nav__link nav__link-contact"> contact us
             </a></li>
         </ul>
+        <label for="nav-toggle" class="nav__toggle-label">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </label>
 
       </div>
     </div>
