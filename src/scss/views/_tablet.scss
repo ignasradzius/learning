@@ -127,6 +127,10 @@
     }
   }
 
+  .content {
+    margin-bottom: 20px;
+  }
+
   .content-grid {
     display: grid;
     grid-template-areas:
@@ -149,13 +153,31 @@
     text-align: center;
   }
 
-  .btn--right {
-    float: none;
-    display: inline-block;
-    margin-top: 20px;
-  }
-
   .footer {
     padding: 40px 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    padding: 0 50px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+
+    .card--last {
+      grid-column: 1;
+      width: auto;
+    }
+  }
+
+  .cards-grid__footer {
+    grid-template-columns: 80%;
+    
+    .border-left {
+      border: none;
+      padding: 0;
+    }
   }
 }

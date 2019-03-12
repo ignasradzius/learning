@@ -59,11 +59,23 @@
 
   &--right {
     float: right;
+    @media only screen and (max-width: 900px) {
+      float: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
   }
 
   &--bottom {
     position: absolute;
     bottom: 20px;
+    @media only screen and (max-width: 600px) {
+      position: relative;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 125px;
+      bottom: 0;
+    }
   }
         
 }
