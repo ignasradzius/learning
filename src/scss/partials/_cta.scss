@@ -1,6 +1,6 @@
 .cta {
   min-height: 92px;
-  padding: 30px 20px;
+  padding: 0 20px 30px 20px;
   margin: 20px 0;
   position: relative;
   background: $white;
@@ -20,5 +20,7 @@
     line-height: 36px;
     display: inline-block;
     color: $grey;
+    margin-right: 20px;
+    margin-top: 30px;
   }
 }
