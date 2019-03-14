@@ -13,6 +13,10 @@
     position: relative;
     padding: 0 25px;
 
+    .product-list, .gallery-list {
+      opacity: 0;
+    }
+
     .btn--signup {
       float: right;
     }

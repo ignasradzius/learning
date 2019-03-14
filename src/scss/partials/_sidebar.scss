@@ -1,3 +1,5 @@
+@import "./partials/form-validation";
+
 .sidebar {
   background: $white;
   padding: 25px 20px 20px 20px;
@@ -22,7 +24,7 @@
 
   &__input {
     background: rgba(250, 250, 250, 1);
-    color: $border;
+    color: $black;
     border: 1px solid $border;
     font-style: italic;
     width: 100%;
